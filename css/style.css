@@ -27,6 +27,7 @@ a{
 .container {
     width: 80%;
     margin: 0 auto;
+    min-width: 1200px;
   }
 
 .dot{
@@ -106,7 +107,9 @@ a{
 
 .header{
     background-color: #255EE9;
-    height: 60px
+    height: 60px;
+    min-width: 1200px;
+    
 }
 
 .flex-head{
@@ -119,7 +122,6 @@ a{
 
 .head-list{
     flex-grow: 1;
-    /* padding: 10px 230px; */
 }
 
 
@@ -150,15 +152,15 @@ a{
 
 .intestation{
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 200px;
-
+    min-width: 1200px;
 }
 
 .small-container{
     width: 70%;
     margin: 0 auto;
+    
 }
 
 .h-int{
@@ -204,7 +206,7 @@ a{
 }
 
 .block{
-    align-items: center;
+    align-items: flex-start;
 }
 
 .h-layout{
@@ -226,6 +228,11 @@ a{
 }
 /* fine blocchi */
 
+/* blocco singolo */
+
+
+
+/* fine blocco singolo */
 
 .def-height{
     height: 350px;
