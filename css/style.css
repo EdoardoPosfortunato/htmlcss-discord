@@ -275,6 +275,11 @@ a{
     height: 80px;
 }
 
+.footer-pad{
+    padding: 50px 0;
+    margin-bottom: 10px solid gray;
+}
+
 .footer-list{
     margin-right: 90px;
     width: 130px;
@@ -291,6 +296,7 @@ a{
     display: inline-block;
     text-decoration: none;
     color: white;
+    height: 10px;
     margin-right:20px;
     margin-top: 15px;
     font-size: 15px;
@@ -304,4 +310,12 @@ a{
 
 .car-foot{
     padding: 5px 20px;
+}
+
+.footer-title{
+    color: #255EE9;
+}
+
+.footer-left{
+    
 }
