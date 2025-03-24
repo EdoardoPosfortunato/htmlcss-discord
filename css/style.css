@@ -87,7 +87,7 @@ a{
     }
 
     .gray{
-        background-color: rgb(211, 211, 211);
+        background-color: #F6F6F6;
     }
 
     .green{
@@ -152,6 +152,7 @@ a{
     background-image: url(../img/jumbo.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    min-height: 200px;
 
 }
 
@@ -194,7 +195,36 @@ a{
 }
 
 /* fine intestazione */
+ 
+/* blocchi */
 
+.block-layout{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.block{
+    align-items: center;
+}
+
+.h-layout{
+    font-size: 35px;
+    width: 75%;
+    line-height: 1.2;
+}
+
+.p-layout{
+    padding-top: 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 75%;
+
+}
+
+.text-section{
+    margin: 20px;
+}
+/* fine blocchi */
 
 
 .def-height{
